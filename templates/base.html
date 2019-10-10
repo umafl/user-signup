@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>User Signup</title>
+        <style type="text/css">
+            .error {
+                padding-left: .5em;
+                font-style: italic;
+                color: red;
+            }
+            .page-name {
+                text-align: center;
+                color: white;
+                font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+            }
+            .body {
+                background-color: black;
+            }
+            .label {
+                display: table-cell;
+                padding-right: .5em;
+                padding-top: .5em;
+                color: white;
+                font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+            }
+            .form {
+                display: table;
+            }
+            .input {
+                display: table-cell;
+            }
+            .paragraph {
+                display: table-row;
+            }
+            #div {
+                margin-left: auto;
+                margin-right: auto;
+                display: table;
+            }
+        </style>
+
+
+    </head>
+
+    <body class="body">
+
+        <h1 class="page-name">User Signup</h1>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>
